@@ -27,3 +27,4 @@
   $data_zone[17] = ["Ruines Mystérieuses", "panel6.png"]
   $data_zone[18] = ["Route 8", "panel6.png"]
   $data_zone[19] = ["Corah", "panel6.png"]
+  $data_zone[20] = ["Sentier Paisible", "panel6.png"]
