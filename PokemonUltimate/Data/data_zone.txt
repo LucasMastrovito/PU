@@ -1,0 +1,29 @@
+﻿#-------------------------------------------------------------
+# Fichier de données : Zones
+# Pokemon Script Project - Krosk
+# 08/05/08
+#-------------------------------------------------------------
+# $data_zone
+#   [Nom]
+#-------------------------------------------------------------
+
+  $data_zone[0] = ["Défis Ultime", "panel6.png"]
+  $data_zone[1] = ["Celenne", "panel6.png"]
+  $data_zone[2] = ["Route 1", "panel6.png"]
+  $data_zone[3] = ["Route 2", "panel6.png"]
+  $data_zone[4] = ["Saturna", "panel6.png"]
+  $data_zone[5] = ["Route 3", "panel6.png"]
+  $data_zone[6] = ["Argon", "panel6.png"]
+  $data_zone[7] = ["Mt Abrupt", "panel6.png"]
+  $data_zone[8] = ["Route 4", "panel6.png"]
+  $data_zone[9] = ["Orvena", "panel6.png"]
+  $data_zone[10] = ["Route 5", "panel6.png"]
+  $data_zone[11] = ["Lysil", "panel6.png"]
+  $data_zone[12] = ["Port-Cara", "panel6.png"]
+  $data_zone[13] = ["Îles Tsunami", "panel6.png"]
+  $data_zone[14] = ["Route 6", "panel6.png"]
+  $data_zone[15] = ["Route 7", "panel6.png"]
+  $data_zone[16] = ["Frelia", "panel6.png"]
+  $data_zone[17] = ["Ruines Mystérieuses", "panel6.png"]
+  $data_zone[18] = ["Route 8", "panel6.png"]
+  $data_zone[19] = ["Corah", "panel6.png"]
