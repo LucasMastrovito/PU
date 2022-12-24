@@ -1,21 +1,26 @@
----------- Erreur de script : MAP ----------
+---------- Erreur de script : InterpreterBis ----------
 ----- Type
 NoMethodError
 
 ----- Message
-- ARGS - [1]
-undefined method `[]' for nil:NilClass
+- ARGS - [#<POKEMON_S::Pokemon:0x1128bec8 @confused=false, @code=1008777545, @battle_list=[0, 0, 0, 1, 1, 0, 142], @dv_spd=26, @effect=[], @level=23, @window=nil, @skills_allow=[], @status_count=0, @save_transform=nil, @base_atk=64, @mega=nil, @dfe_plus=3, @ability=66, @dfs=40, @male_rate=87.5, @dv_atk=28, @trainer_id="18609", @skills_set=[#<POKEMON_S::Skill:0x1128bb38 @ppinit=35, @physical=true, @ppmax=35, @usable=true, @pp=35, @id=10, @special=false>, #<POKEMON_S::Skill:0x1128b9e8 @ppinit=40, @physical=true, @ppmax=40, @usable=true, @pp=40, @id=45, @special=false>, #<POKEMON_S::Skill:0x1128b970 @ppinit=25, @physical=false, @ppmax=25, @usable=true, @pp=22, @id=52, @special=true>, #<POKEMON_S::Skill:0x1128b910 @ppinit=10, @physical=false, @ppmax=10, @usable=true, @id=82, @pp=1, @special=true>], @hp=12, @skills_table=[[10, 1], [45, 1], [52, 1], [52, 7], [53, 43], [83, 50], [108, 10], [82, 17], [163, 39], [184, 21], [424, 28], [522, 54], [539, 32]], @egg=false, @hp_plus=23, @ability_token=nil, @shiny=false, @save_item=nil, @type2=0, @round=0, @spd=49, @critical_base=0, @base_ats=80, @rate_loyalty=1, @spd_plus=25, @state_count=0, @battler_id=5, @dv_ats=18, @effect_count=[], @item_hold=0, @exp_type=3, @gender=1, @id=5, @ats_plus=1, @battle_stage=[0, 0, 0, 0, 0, 0, 0], @base_dfe=58, @is_anime=true, @female_rate=12.5, @dv_dfe=28, @loyalty=219, @stats_manuel=[0, 0, 0, 0, 0], @trainer_name="Lysm", @atk=36, @status=0, @save_ability=nil, @base_hp=58, @atk_plus=4, @step_remaining=0, @nature=["Calme", 90, 100, 100, 100, 110], @ats=45, @rareness=45, @dv_hp=13, @id_ball=4, @base_dfs=65, @id_bis=0, @given_name="Reptincel", @flinch=false, @dv_dfs=11, @ability_active=false, @form=0, @dfe=38, @type1=2, @base_spd=80, @dfs_plus=2, @exp=9633, @bonus=[0, 0, 0, 0, 0]>]
+Section366:9:in `buffer_to_team'undefined method `add_or_store' for #<Interpreter:0x112b83e8>
 
------ Position dans MAP
-Ligne 150
+----- Position dans InterpreterBis
+Ligne 448
 
 ----- Backtrace
-Script : MAP | Ligne : 150 | Méthode : in `initialize_world_map'
-Script : GameMapSG | Ligne : 188 | Méthode : in `refresh'
-Script : GameMap | Ligne : 371 | Méthode : in `update'
-Script : SceneMapSG | Ligne : 135 | Méthode : in `follow_me_transfer_player'
-Script : FollowerPkm | Ligne : 91 | Méthode : in `transfer_player'
-Script : SceneMapSG | Ligne : 53 | Méthode : in `alias_update'
+Script : InterpreterBis | Ligne : 448 | Méthode : in `command_355'
+Script : BufferPokemon | Ligne : 8 | Méthode : in `each'
+Script : BufferPokemon | Ligne : 8 | Méthode : in `buffer_to_team'
+Script : --------------------------------------- | Ligne : 1 | Méthode : in `command_355'
+Script : Interpreter2 | Ligne : 215 | Méthode : in `eval'
+Script : InterpreterBis | Ligne : 448 | Méthode : in `command_355'
+Script : Interpreter2 | Ligne : 215 | Méthode : in `execute_command'
+Script : Interpreter1 | Ligne : 199 | Méthode : in `update'
+Script : Interpreter1 | Ligne : 113 | Méthode : in `loop'
+Script : Interpreter1 | Ligne : 204 | Méthode : in `update'
+Script : SceneMapSG | Ligne : 48 | Méthode : in `alias_update'
 Script : SceneMapSG | Ligne : 46 | Méthode : in `loop'
 Script : SceneMapSG | Ligne : 55 | Méthode : in `alias_update'
 Script : MAPPANEL | Ligne : 89 | Méthode : in `ts_update'
