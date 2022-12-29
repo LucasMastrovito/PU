@@ -1,23 +1,28 @@
----------- Erreur de script : LoadTrainers ----------
+---------- Erreur de script : MAP ----------
 ----- Type
-SyntaxError
+NoMethodError
 
 ----- Message
-(eval):1:in `add_pokemon'compile error
-(eval):1: syntax error
-{ "NV" => 15, "MOVE" => "AURASPHERE", "DETECTION", "VIVE-ATTAQUE", "GRIFFE ACIER" "STAT" => [31, 31, 31, 31, 31, 31], "SHINY" => false }
-                                                  ^
-(eval):1: syntax error
-{ "NV" => 15, "MOVE" => "AURASPHERE", "DETECTION", "VIVE-ATTAQUE", "GRIFFE ACIER" "STAT" => [31, 31, 31, 31, 31, 31], "SHINY" => false }
-                                                                  ^
+- ARGS - [1]
+undefined method `[]' for nil:NilClass
 
------ Position dans LoadTrainers
-Ligne 67
+----- Position dans MAP
+Ligne 150
 
 ----- Backtrace
-Script : LoadTrainers | Ligne : 67 | Méthode : in `add_pokemon'
-Script : LoadData | Ligne : 18 | Méthode : in `join'
-Script : LoadData | Ligne : 18 | Méthode : in `load_in_thread'
-Script : LoadData | Ligne : 18 | Méthode : in `each'
-Script : LoadData | Ligne : 18 | Méthode : in `load_in_thread'
-Script : Main | Ligne : 32
+Script : MAP | Ligne : 150 | Méthode : in `initialize_world_map'
+Script : GameMapSG | Ligne : 188 | Méthode : in `refresh'
+Script : GameMap | Ligne : 371 | Méthode : in `update'
+Script : SceneMapSG | Ligne : 135 | Méthode : in `follow_me_transfer_player'
+Script : FollowerPkm | Ligne : 91 | Méthode : in `transfer_player'
+Script : SceneMapSG | Ligne : 53 | Méthode : in `alias_update'
+Script : SceneMapSG | Ligne : 46 | Méthode : in `loop'
+Script : SceneMapSG | Ligne : 55 | Méthode : in `alias_update'
+Script : MAPPANEL | Ligne : 89 | Méthode : in `ts_update'
+Script : TempsJourNuit | Ligne : 237 | Méthode : in `follow_me_update'
+Script : FollowerPkm | Ligne : 96 | Méthode : in `update'
+Script : SceneMap | Ligne : 25 | Méthode : in `ts_main'
+Script : SceneMap | Ligne : 19 | Méthode : in `loop'
+Script : SceneMap | Ligne : 30 | Méthode : in `ts_main'
+Script : TempsJourNuit | Ligne : 230 | Méthode : in `main'
+Script : Main | Ligne : 39
