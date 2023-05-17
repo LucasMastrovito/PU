@@ -215,3 +215,4 @@
     $data_item[ 431 ]=[ {"ball" => true } ]
     $data_item[ 432 ]=[ {"ball" => true } ]
     $data_item[ 433 ]=[ {"ball" => true } ]
+    $data_item[ 501 ]=[ {"stone" => true} ]

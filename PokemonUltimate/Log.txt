@@ -1,21 +1,22 @@
----------- Erreur de script : MAP ----------
+---------- Erreur de script : InterpreterBis ----------
 ----- Type
-NoMethodError
+NameError
 
 ----- Message
-- ARGS - [1]
-undefined method `[]' for nil:NilClass
+(eval):1:in `command_111'uninitialized constant Interpreter::TUNNEL_DIRECTION
 
------ Position dans MAP
-Ligne 150
+----- Position dans InterpreterBis
+Ligne 266
 
 ----- Backtrace
-Script : MAP | Ligne : 150 | Méthode : in `initialize_world_map'
-Script : GameMapSG | Ligne : 188 | Méthode : in `refresh'
-Script : GameMap | Ligne : 371 | Méthode : in `update'
-Script : SceneMapSG | Ligne : 135 | Méthode : in `follow_me_transfer_player'
-Script : FollowerPkm | Ligne : 91 | Méthode : in `transfer_player'
-Script : SceneMapSG | Ligne : 53 | Méthode : in `alias_update'
+Script : InterpreterBis | Ligne : 266 | Méthode : in `command_111'
+Script : Interpreter2 | Ligne : 41 | Méthode : in `eval'
+Script : InterpreterBis | Ligne : 266 | Méthode : in `command_111'
+Script : Interpreter2 | Ligne : 41 | Méthode : in `execute_command'
+Script : Interpreter1 | Ligne : 199 | Méthode : in `update'
+Script : Interpreter1 | Ligne : 113 | Méthode : in `loop'
+Script : Interpreter1 | Ligne : 204 | Méthode : in `update'
+Script : SceneMapSG | Ligne : 48 | Méthode : in `alias_update'
 Script : SceneMapSG | Ligne : 46 | Méthode : in `loop'
 Script : SceneMapSG | Ligne : 55 | Méthode : in `alias_update'
 Script : MAPPANEL | Ligne : 89 | Méthode : in `ts_update'
