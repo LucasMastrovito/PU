@@ -1,29 +1,30 @@
----------- Erreur de script : Data/data_item.txt ----------
+---------- Erreur de script : InterpreterBis ----------
 ----- Type
-Hangup
+NoMethodError
 
 ----- Message
-Section120:286:in `downcase_remove_accents'
+- ARGS - []
+(eval):1:in `command_111'undefined method `isMoving' for nil:NilClass
 
------ Position dans Data/data_item.txt
-Ligne 176
-    $data_item[297]=[ { "ct" => [65, Skill_Info.id("GRIFFE OMBRE")]} ]
+----- Position dans InterpreterBis
+Ligne 266
 
 ----- Backtrace
-Script : LoadItems | Ligne : 48 | Méthode : in `load'
-Script : SkillInfo | Ligne : 12 | Méthode : in `id'
-Script : SkillInfo | Ligne : 11 | Méthode : in `upto'
-Script : SkillInfo | Ligne : 11 | Méthode : in `id'
-Script : --------------------------------------- | Ligne : 1 | Méthode : in `load'
-Script : LoadItems | Ligne : 48 | Méthode : in `eval'
-Script : LoadItems | Ligne : 48 | Méthode : in `load'
-Script : LoadItems | Ligne : 48 | Méthode : in `each'
-Script : LoadItems | Ligne : 48 | Méthode : in `load'
-Script : LoadData | Ligne : 25 | Méthode : in `load_component_with_dependencies_data'
-Script : LoadData | Ligne : 25 | Méthode : in `initialize'
-Script : LoadData | Ligne : 25 | Méthode : in `new'
-Script : LoadData | Ligne : 25 | Méthode : in `load_component_with_dependencies_data'
-Script : Main | Ligne : 34
-Script : Main | Ligne : 34 | Méthode : in `initialize'
-Script : Main | Ligne : 34 | Méthode : in `new'
-Script : Main | Ligne : 34
+Script : InterpreterBis | Ligne : 266 | Méthode : in `command_111'
+Script : Interpreter2 | Ligne : 41 | Méthode : in `eval'
+Script : InterpreterBis | Ligne : 266 | Méthode : in `command_111'
+Script : Interpreter2 | Ligne : 41 | Méthode : in `execute_command'
+Script : Interpreter1 | Ligne : 199 | Méthode : in `update'
+Script : Interpreter1 | Ligne : 113 | Méthode : in `loop'
+Script : Interpreter1 | Ligne : 204 | Méthode : in `update'
+Script : SceneMapSG | Ligne : 48 | Méthode : in `alias_update'
+Script : SceneMapSG | Ligne : 46 | Méthode : in `loop'
+Script : SceneMapSG | Ligne : 55 | Méthode : in `alias_update'
+Script : MAPPANEL | Ligne : 89 | Méthode : in `ts_update'
+Script : TempsJourNuit | Ligne : 237 | Méthode : in `follow_me_update'
+Script : FollowerPkm | Ligne : 96 | Méthode : in `update'
+Script : SceneMap | Ligne : 25 | Méthode : in `ts_main'
+Script : SceneMap | Ligne : 19 | Méthode : in `loop'
+Script : SceneMap | Ligne : 30 | Méthode : in `ts_main'
+Script : TempsJourNuit | Ligne : 230 | Méthode : in `main'
+Script : Main | Ligne : 39
