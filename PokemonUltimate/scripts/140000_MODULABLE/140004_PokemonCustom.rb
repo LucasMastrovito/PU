@@ -115,6 +115,69 @@ module POKEMON_S
       end
       return type
     end
+    
+    #------------------------------------------------------------------
+    #Cap.spé par forme (Non fonctionnel)
+    #------------------------------------------------------------------
+    def ability
+      if @save_ability != nil
+        return @ability
+      end
+      id_ability = nil
+      # Formes
+      if @form == 1
+        case name
+        when "Giratina"
+          id_ability = 26 # return 46
+        when "Raichu"
+          id_abilit = 229
+        when "Sabelette", "Sablaireau", "Goupix", "Feunard"
+          id_ability = 82
+        when "Taupiqueur", "Triopikeur"
+          id_ability = 8
+        when "Racaillou", "Gravalanch", "Grolem"
+          id_ability = 42
+        when "Noadkoko"
+          id_ability = 120
+        when "Ossatueur"
+          id_ability = 31
+        end
+      end
+      # mega
+      if @mega == 1
+        case name
+        when "Florizarre"
+          id_ability = 47
+        when "Dardargnan", "Lucario"
+          id_ability = 92
+        when "Alakazam"
+          id_ability = 36
+        when "Ectoplasma"
+          id_ability = 23
+        when "Leviator", "Pharamp"
+          id_ability = 105
+        when "Steelix", "Carchacrock"
+          id_ability = 138
+        when "Demolosse"
+          id_ability = 95
+        when "Mysdibule"
+          id_ability = 37
+        when "Branette"
+          id_ability = 137
+        when "Elecsprint"
+          id_ability = 22
+        when "Gallame"
+          id_ability = 39
+        end
+      elsif @mega == 2
+        case name
+        when "Dracaufeu"
+          id_ability = 70
+        end
+      end
+      @ability = id_ability if id_ability != nil
+      return @ability
+    end
       
     # -----------------------------------------------------------------
     #  Stat spéciale Deoxys

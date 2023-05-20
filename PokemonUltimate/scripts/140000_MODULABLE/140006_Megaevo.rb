@@ -93,7 +93,7 @@ module POKEMON_S
     end
      
     def mega_test(n)
-      return false if n.mega
+      return false if n.mega > 0
       if n != @actor or not $mega_evolution
         for a in mega_list
           if a[0] == n.id or a[0] == n.name
@@ -106,7 +106,7 @@ module POKEMON_S
      
     def primo_test(n)
       return false
-      return false if n.mega
+      return false if n.mega > 0
       for a in primo_list
         if a[0] == n.id or a[0] == n.name
           return true if a[2] == nil or a[2] == n.item_hold
@@ -162,6 +162,7 @@ module POKEMON_S
         $scene.battler_anim ; Graphics.update
         Input.update
         update_sprite
+        check_ability_post_mega_evolution(@enemy, @actor)
       end
       if $mega_on and not $mega_evolution
         mega_evo(@actor)
@@ -181,6 +182,7 @@ module POKEMON_S
         Input.update
         update_sprite
         $mega_evolution = true
+        check_ability_post_mega_evolution(@actor, @enemy)
       end
     end
      

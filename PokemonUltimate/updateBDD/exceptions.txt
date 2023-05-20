@@ -1,5 +1,5 @@
-@enemies_no = []
+@enemies_no = [123, 349]
 @skills_no = []
-@items_no = []
+@items_no = [501]
 @armors_no = []
 @weapons_no = []

@@ -166,7 +166,7 @@ module POKEMON_S
                   70 => :baisse_vitesse_attaque,
                   # BALL'BRUME / ABOIEMENT / SURVINSECTE 
                   71 => :baisse_attaque_spe,
-                  # PSYKO / MACHOUILLE / BALL'OMBRE / LUMI-ECLAT / BOURDON / 
+                  # PSYKO / BALL'OMBRE / LUMI-ECLAT / BOURDON / 
                   # EXPLOFORCE / ECO-SPHERE / TELLURIFORCE / LUMINOCANON / 
                   # LUMI ECLAT
                   72 => :baisse_defense_spe,
@@ -248,7 +248,8 @@ module POKEMON_S
                   108 => :lilliput,
                   # MALEDICTION
                   109 => :malediction,
-                  
+                  # MACHOUILLE
+                  110 => :baisse_defense,
                    # ABRI / DETECTION / GARDE LARGE
                   111 => :encaissement_attaque,
                   # PICOTS
