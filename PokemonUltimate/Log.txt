@@ -1,10 +1,12 @@
 ---------- Erreur de script : InterpreterBis ----------
 ----- Type
-NoMethodError
+SyntaxError
 
 ----- Message
-- ARGS - [0]
-(eval):1:in `command_355'undefined method `set_trigger' for nil:NilClass
+(eval):1:in `command_355'compile error
+(eval):1: syntax error
+$game_map.events[@event_id]_pages[2].set_trigger(0)
+                                 ^
 
 ----- Position dans InterpreterBis
 Ligne 448
