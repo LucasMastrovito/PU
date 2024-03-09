@@ -30,3 +30,6 @@
   $data_zone[20] = ["Sentier Paisible", "panel6.png"]
   $data_zone[21] = ["Lac Mirage", "panel6.png"]
   $data_zone[22] = ["Forêt Etrange", "panel6.png"]
+  $data_zone[23] = ["Désert Sablé", "panel6.png"]
+  $data_zone[24] = ["Base Souterraine", "panel6.png"]
+  $data_zone[25] = ["Ile Mirage", "panel6.png"]
